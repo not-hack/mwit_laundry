@@ -34,8 +34,10 @@ CREATE TABLE IF NOT EXISTS `datauser` (
 
 -- Dumping data for table mwit-laundry.datauser: ~1 rows (approximately)
 INSERT INTO `datauser` (`ID`, `userID`, `password`, `firstname`, `lastname`, `email`, `gender`, `DOM`, `class`, `OTP`, `last_login`, `created_at`) VALUES
-	(1, 's6609005', 'adcd7048512e64b48da55b027577886ee5a36350', 'pakornkaed', 'kuaisakun', 'pakornkaed.kua_g33@mwit.ac.th', 'male', 9, 'USER', '(NULL)', NULL, NULL),
-	(7, 's0000000', 'b32f33e9fa28c36b11922d902038dc6c93200d8c', 't', 't', 't@t', 'male', 9, 'USER', NULL, NULL, '2024-01-16 14:33:27');
+	(1, '00000', 'adcd7048512e64b48da55b027577886ee5a36350', 'test1', 'test1', 'test1@test.test', 'male', 9, 'USER', '(NULL)', NULL, NULL),
+	(7, '00001', 'adcd7048512e64b48da55b027577886ee5a36350', 'test2', 'test2', 'test2@test.test', 'male', 9, 'USER', NULL, NULL, '2024-01-16 14:33:27');
+
+/* Encrypt password [adcd7048512e64b48da55b027577886ee5a36350] = 123 */;
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
