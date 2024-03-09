@@ -31,7 +31,7 @@ CREATE TABLE IF NOT EXISTS `washing-machine` (
 -- Dumping data for table mwit-laundry.washing-machine: ~3 rows (approximately)
 INSERT INTO `washing-machine` (`ID`, `DOM`, `status`, `end_usetime`, `current_user`, `last_user`, `alluse`) VALUES
 	(1, '9', 'ready', NULL, NULL, NULL, 0),
-	(2, '9', 'working', '1706240305000', 's6609005', 's6609005', 0),
+	(2, '9', 'repair', NULL, NULL, NULL, 0),
 	(3, '7', 'ready', NULL, NULL, NULL, 0);
 
 /*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
