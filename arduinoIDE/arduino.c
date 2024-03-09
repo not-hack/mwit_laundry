@@ -7,8 +7,8 @@
 #include <HTTPClient.h>
 
 #define I2CADDR 0x20
-#define WIFI_STA_NAME "Get"
-#define WIFI_STA_PASS "4561237899"
+#define WIFI_STA_NAME "" //Your wifi name
+#define WIFI_STA_PASS "" //Your wifi password
 
 const String URL = "https://HOST/server/arduino/post.php"; //My project host is: mwit-laundry.000webhostapp.com
 
