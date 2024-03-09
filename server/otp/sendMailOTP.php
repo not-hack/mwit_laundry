@@ -32,8 +32,8 @@ if (isset($_POST['get-otp'])) {
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'mwit.landry@gmail.com';
-            $mail->Password = 'fxnc lvat pnmt spta';
+            $mail->Username = ''; //Your email name
+            $mail->Password = ''; //Your email password
             $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
             $mail->Port = 465;
 
@@ -86,8 +86,8 @@ if (isset($_POST['Re-OTP'])) {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'mwit.landry@gmail.com';
-        $mail->Password = 'fxnc lvat pnmt spta';
+        $mail->Username = ''; //Your email name
+        $mail->Password = ''; //Your email password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port = 465;
 
