@@ -10,7 +10,7 @@
 #define WIFI_STA_NAME "Get"
 #define WIFI_STA_PASS "4561237899"
 
-const String URL = "https://mwit-laundry.000webhostapp.com/server/arduino/post.php";
+const String URL = "https://HOST/server/arduino/post.php"; //My project host is: mwit-laundry.000webhostapp.com
 
 const byte ROWS = 4;
 const byte COLS = 4;
